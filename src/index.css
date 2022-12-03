@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-bg-color: #A5B4FC;
+    --primary-color: #312E81;
+    --primary-btn-color: #6ED5B7;
+    --primary-btn-color-hover: rgba(16, 185, 129, 1);
+    --previous-btn-color: #6B7280;
+    --submit-btn-color: #F59E0B;
+    --submit-btn-hover-color: rgba(251, 191, 36, 1);
+    --reset-btn-hover-color: rgb(248 113 113);
+    --wrong-color: #EF4444;
+    --correct-color: #10B981;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* color: rgb(49 46 129 1);; */
+}
+
+.primary-color{
+    background-color: #312E81 !important;
+    color: #fff;
+}
+.wrong-color {
+    background-color: #EF4444 !important;
+    color: #fff;
+}
+.correct-color {
+    background-color: #10B981 !important;
+    color: #fff;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    display: inline-block;
+    min-width: 128px;
+    margin-right: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    cursor: pointer;
+}
+
+.privious-disabled, .next-disabled  {
+    background-color: rgb(229 231 235) !important;
+    color: rgb(209 213 219) !important;
+    cursor: unset !important;
+}
