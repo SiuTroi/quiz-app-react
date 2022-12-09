@@ -17,7 +17,7 @@ const Answer = ({
   useEffect(() => {
 		const fetchData = async () => {
 			const res = await axios.get(
-				'http://127.0.0.1:5173/src/data.json'
+				'https://api.npoint.io/60faa3c30c3afe0c8611'
 			);
 			await setAnswerData(res.data);
 		};
